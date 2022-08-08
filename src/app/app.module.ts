@@ -8,12 +8,16 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SingInComponent } from './components/sing-in/sing-in.component';
+import { SingUpComponent } from './components/sing-up/sing-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SingInComponent,
+    SingUpComponent
   ],
   imports: [
     BrowserModule,
